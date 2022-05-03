@@ -10,7 +10,7 @@ namespace CSVManipulation
     {
         public void FileWriteToCsv(string text)
         {
-            File.WriteAllText(ThePaths.FilePath1.ToString(), text);
+            File.WriteAllText(ThePaths.FilePath1, text);
         }
     }
 }
